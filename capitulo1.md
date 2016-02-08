@@ -102,7 +102,7 @@ Pasos:
    Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
    
-5. Para verificar la instalaci�n exitosa, abra una consola y ejecute el intérprete de Haskell:
+5. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
 
 .. code-block:: console
 
