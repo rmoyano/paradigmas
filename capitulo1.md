@@ -35,12 +35,12 @@ Pasos:
 
 7. Seleccionar el directorio a dónde se va instalar y darle aceptar. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
 
-8. Buscar la carpeta a donde se instal� y ejecutar ghci.exe para abrir el int�rprete de Haskell.
+8. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell.
 
 **GNU/Linux**
 :::::::::::::
 
-La instalación de Haskell la vamos a realizar en la distribuci�n Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y debería funcionar sin inconvenientes.
+La instalación de Haskell la vamos a realizar en la distribución Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y debería funcionar sin inconvenientes.
 
 Pasos:
 ......
