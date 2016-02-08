@@ -1,16 +1,15 @@
-#Instalación de Haskell#
-==========================
+#InstalaciÃ³n de Haskell
 
-Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerías, 
-intérprete y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
-ghc es el compilador optimizado para generar rápido código nativo; ghci es el intérprete y depurador interactivo. 
+Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerÃ­as, 
+intÃ©rprete y compilador. La distribuciÃ³nn mÃ¡s activa es GHC (Glasgow Haskell Compiler). 
+ghc es el compilador optimizado para generar rÃ¡pido cÃ³digo nativo; ghci es el intÃ©rprete y depurador interactivo. 
 
 ##Microsoft Windows##
 
 Pasos:
 
-1. Ir al sitio oficial del lenguaje de programación (https://www.haskell.org "Haskell") 
-2. Buscar y hacer click en la sección (https://www.haskell.org "Downloads").
+1. Ir al sitio oficial del lenguaje de programaciÃ³n (https://www.haskell.org "Haskell") 
+2. Buscar y hacer click en la secciÃ³n (https://www.haskell.org "Downloads").
 
    ![Sitio oficial del proyecto.][logo]
 
@@ -34,14 +33,14 @@ Pasos:
 
 6. Una vez finalizada la descarga, ejecutar el instalador.
 
-7. Seleccionar el directorio a dónde se va instalar y darle aceptar. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
+7. Seleccionar el directorio a dÃ³nde se va instalar y darle aceptar. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
 
-8. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell.
+8. Buscar la carpeta a donde se instalï¿½ y ejecutar ghci.exe para abrir el intï¿½rprete de Haskell.
 
 **GNU/Linux**
 :::::::::::::
 
-La instalación de Haskell la vamos a realizar en la distribución Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y debería funcionar sin inconvenientes.
+La instalaciÃ³n de Haskell la vamos a realizar en la distribuciï¿½n Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalaciÃ³n es similar y deberÃ­a funcionar sin inconvenientes.
 
 Pasos:
 ......
@@ -59,7 +58,7 @@ Pasos:
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
    deb-src http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
 
-2. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el índice de paquetes: 
+2. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el Ã­ndice de paquetes: 
 
 .. code-block:: console
 
@@ -77,15 +76,15 @@ Pasos:
    ghc-prof - Profiling libraries for the Glasgow Haskell Compilation system
 
    
-4. Instalar las librerías y respectivas dependencias:
+4. Instalar las librerÃ­as y respectivas dependencias:
 
 .. code-block:: console
 
    # apt-get install ghc
    Leyendo lista de paquetes... Hecho
-   Creando árbol de dependencias       
-   Leyendo la información de estado... Hecho
-   Se instalarán los siguientes paquetes extras:
+   Creando Ã¡rbol de dependencias       
+   Leyendo la informaciÃ³n de estado... Hecho
+   Se instalarÃ¡n los siguientes paquetes extras:
        binutils cpp cpp-4.9 gcc gcc-4.9 libasan0 libasan1 libatomic1 libbsd-dev libcilkrts5
        libcloog-isl4 libffi-dev libgcc-4.8-dev libgcc-4.9-dev libgmp-dev libgmpxx4ldbl libgomp1
        libisl10 libitm1 liblsan0 libmpc3 libmpfr4 libquadmath0 libstdc++-4.8-dev libtsan0 libubsan0
@@ -94,16 +93,16 @@ Pasos:
        gdb gcc-doc gcc-4.9-multilib gcc-4.9-doc libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg
        libasan1-dbg liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libquadmath0-dbg
        ghc-prof ghc-doc haskell-doc llvm libgmp10-doc libmpfr-dev libstdc++-4.8-doc
-   Se instalarán los siguientes paquetes NUEVOS:
+   Se instalarÃ¡n los siguientes paquetes NUEVOS:
        binutils cpp cpp-4.9 gcc gcc-4.9 ghc libasan0 libasan1 libatomic1 libbsd-dev libcilkrts5
        libcloog-isl4 libffi-dev libgcc-4.8-dev libgcc-4.9-dev libgmp-dev libgmpxx4ldbl libgomp1
        libisl10 libitm1 liblsan0 libmpc3 libmpfr4 libquadmath0 libstdc++-4.8-dev libtsan0 libubsan0
-   0 actualizados, 27 nuevos se instalarán, 0 para eliminar y 23 no actualizados.
+   0 actualizados, 27 nuevos se instalarï¿½n, 0 para eliminar y 23 no actualizados.
    Se necesita descargar 47,1 MB de archivos.
-   Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
-   ¿Desea continuar? [S/n]
+   Se utilizarÃ¡n 384 MB de espacio de disco adicional despuÃ©s de esta operaciÃ³n.
+   Â¿Desea continuar? [S/n]
    
-5. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
+5. Para verificar la instalaciï¿½n exitosa, abra una consola y ejecute el intÃ©rprete de Haskell:
 
 .. code-block:: console
 
