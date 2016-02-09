@@ -6,7 +6,7 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
 
 ##Microsoft Windows##
 
-Pasos:
+###Pasos:
 
 1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
 2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
@@ -35,8 +35,7 @@ Pasos:
 
 La instalación de Haskell la vamos a realizar en la distribución Debian; por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y también debería funcionar sin inconvenientes.
 
-Pasos:
-......
+###Pasos:
 
 1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo sources.list:
 
@@ -49,13 +48,13 @@ Pasos:
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
    deb-src http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
 ```
-2. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el índice de paquetes: 
+3. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el índice de paquetes: 
 
 ```bash
    # apt-get update
 ```
 
-3. Buscar los paquetes de ghc (Glasgow Haskell Compiler): 
+4. Buscar los paquetes de ghc (Glasgow Haskell Compiler): 
 
 ```bash
    # apt-cache search glasgow
@@ -66,7 +65,7 @@ Pasos:
    ghc-prof - Profiling libraries for the Glasgow Haskell Compilation system
 ```
    
-4. Instalar las librerías y respectivas dependencias:
+5. Instalar las librerías y respectivas dependencias:
 
 ```ShellSession
    # apt-get install ghc
@@ -92,7 +91,7 @@ Pasos:
    ¿Desea continuar? [S/n]
 ```
    
-5. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
+6. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
 
 ```Shell
    $ ghci

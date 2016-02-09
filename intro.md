@@ -8,7 +8,7 @@ Este trabajo es un borrador en evolución permanente, surgió con el fin de serv
 ###¿Cómo colaborar?
 - Creando una nueva [discusión](https://www.gitbook.com/book/rmoyano/paradigmas/discussions), para ello primero deben registrarse en Gitbook o loguearse usando alguna cuenta de Facebook, Github, Google o Twitter. 
 - Agregando comentarios en la guía directamente sobre la línea que quisieran modificar. Para tal fin deben estar logueados en la página. 
-- Creando un pull request en el [repositorio](https://github.com/rmoyano/paradigmas "Repositorio")donde se encuentra alojado el proyecto. 
+- Creando un pull request en el [repositorio](https://github.com/rmoyano/paradigmas "Repositorio") donde se encuentra alojado el proyecto. 
 - En clases hablando conmigo.
 
 ###Licencia
