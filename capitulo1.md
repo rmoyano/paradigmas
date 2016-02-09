@@ -40,39 +40,35 @@ Pasos:
 
 1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo sources.list:
 
-.. code-block:: console
-
-   # vi /etc/apt/sources.list
-
+```bash
+# vi /etc/apt/sources.list
+```
 2. Agregar alguno de los repositorios de Argentina:
 
-.. code-block:: console
-
+```bash
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
    deb-src http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
-
+```
 2. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el índice de paquetes: 
 
-.. code-block:: console
-
+```bash
    # apt-get update
+```
 
 3. Buscar los paquetes de ghc (Glasgow Haskell Compiler): 
 
-.. code-block:: console
-
+```bash
    # apt-cache search glasgow
    bnfc - Compiler front-end generator based on Labelled BNF
    ghc - The Glasgow Haskell Compilation system
    ghc-doc - Documentation for the Glasgow Haskell Compilation system
    ghc-dynamic - Dynamic libraries for the Glasgow Haskell Compilation system
    ghc-prof - Profiling libraries for the Glasgow Haskell Compilation system
-
+```
    
 4. Instalar las librerías y respectivas dependencias:
 
-.. code-block:: console
-
+```ShellSession
    # apt-get install ghc
    Leyendo lista de paquetes... Hecho
    Creando árbol de dependencias       
@@ -94,10 +90,11 @@ Pasos:
    Se necesita descargar 47,1 MB de archivos.
    Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
+```
    
 5. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
 
-.. code-block:: console
-
+```Shell
    $ ghci
    Prelude>
+```
