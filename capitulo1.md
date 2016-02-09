@@ -38,24 +38,18 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
 ###Pasos:
 
 1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo sources.list:
-
 ```bash
 # vi /etc/apt/sources.list
-```
 2. Agregar alguno de los repositorios de Argentina:
-
 ```bash
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
    deb-src http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
 ```
 3. Verificar que se tiene conectividad con el repositorio de Debian, actualizando el índice de paquetes: 
-
 ```bash
    # apt-get update
 ```
-
 4. Buscar los paquetes de ghc (Glasgow Haskell Compiler): 
-
 ```bash
    # apt-cache search glasgow
    bnfc - Compiler front-end generator based on Labelled BNF
@@ -64,9 +58,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
    ghc-dynamic - Dynamic libraries for the Glasgow Haskell Compilation system
    ghc-prof - Profiling libraries for the Glasgow Haskell Compilation system
 ```
-   
 5. Instalar las librerías y respectivas dependencias:
-
 ```ShellSession
    # apt-get install ghc
    Leyendo lista de paquetes... Hecho
@@ -90,9 +82,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
    Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
 ```
-   
 6. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
-
 ```Shell
    $ ghci
    Prelude>
