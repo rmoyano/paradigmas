@@ -15,19 +15,15 @@ Pasos:
    
 3. Seleccionar Windows.
 
-.. image:: images/haskell_download.png                         
-   :target: http://www.haskell.org/downloads/windows
-
+   ![Windows.](/images/haskell_download.png "Windows")
    
 4. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
 
-.. image:: images/haskell_arch.png                         
-   
+   ![Arquitectura.](/images/haskell_arch.png "Arquitectura")
    
 5. Guarde el instalador en su computadora.
 
-.. image:: images/haskell_save_file.png                         
-
+   ![Guardar.](/images/haskell_save_file.png "Guardar")
 
 6. Una vez finalizada la descarga, ejecutar el instalador.
 
@@ -37,7 +33,7 @@ Pasos:
 
 ##GNU/Linux
 
-La instalación de Haskell la vamos a realizar en la distribución Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y debería funcionar sin inconvenientes.
+La instalación de Haskell la vamos a realizar en la distribución Debian; por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y también debería funcionar sin inconvenientes.
 
 Pasos:
 ......
