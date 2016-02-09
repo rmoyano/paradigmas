@@ -11,9 +11,7 @@ Pasos:
 1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
 2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
 
-   ![Sitio oficial del proyecto.][logo]
-
-[logo]: images/haskell.png
+   ![Sitio oficial del proyecto.](/images/haskell.png "Sitio oficial")
    
 3. Seleccionar Windows.
 
