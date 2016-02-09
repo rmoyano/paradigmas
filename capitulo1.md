@@ -8,8 +8,8 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
 
 Pasos:
 
-1. Ir al sitio oficial del lenguaje de programación (https://www.haskell.org "Haskell") 
-2. Buscar y hacer click en la sección (https://www.haskell.org "Downloads").
+1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
+2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
 
    ![Sitio oficial del proyecto.][logo]
 
