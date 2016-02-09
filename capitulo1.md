@@ -37,8 +37,7 @@ Pasos:
 
 8. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell.
 
-**GNU/Linux**
-:::::::::::::
+##GNU/Linux
 
 La instalación de Haskell la vamos a realizar en la distribución Debian, por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y debería funcionar sin inconvenientes.
 
@@ -108,6 +107,3 @@ Pasos:
 
    $ ghci
    Prelude>
-
-.. _Haskell: http://www.haskell.org
-.. _Downloads: http://www.haskell.org/downloads
