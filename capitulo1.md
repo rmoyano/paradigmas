@@ -40,6 +40,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
 1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo sources.list:
 ```bash
 # vi /etc/apt/sources.list
+```
 2. Agregar alguno de los repositorios de Argentina:
 ```bash
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
