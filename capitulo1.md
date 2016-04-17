@@ -2,7 +2,7 @@
 
 Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerías, 
 intérprete y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
-ghc es el compilador optimizado para generar rápido código nativo; ghci es el intérprete y depurador interactivo. 
+*ghc* es el compilador optimizado para generar rápido código nativo; ghci es el intérprete y depurador interactivo. 
 
 ##Microsoft Windows##
 
@@ -15,13 +15,13 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
    
 3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la instalación mínima [(Minimal installers)](https://www.haskell.org/downloads#minimal) por lo que hacemos click en el enlace a esa sección.
 
-   ![Minimal installers.](/images/2_haskell_download.png "Minimal installers")
+   ![Minimal installers.](/images/2_haskell_downloads.png "Minimal installers")
 
-4. Seleccionar sistema operativo [Windows](https://github.com/fpco/minghc#using-the-installer):
+4. Seleccionar el sistema operativo [Windows](https://github.com/fpco/minghc#using-the-installer):
 
    ![Windows.](/images/3_haskell_os.png "Windows")
                   
-5. Una vez que estamos en el proyecto MinGHC en Github, hacemos scroll en la página hasta llegar a la sección *Legacy MinGHC installers*. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
+5. Una vez que ingresamos a la página del proyecto *MinGHC* en Github, hacemos scroll-down en la página hasta llegar a la sección *Legacy MinGHC installers*. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
 
    ![Arquitectura.](/images/4_haskell_arch.png "Arquitectura")
    
@@ -33,19 +33,19 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
 
    ![Instalar.](/images/6_execute_exe.png "Instalar")
 
-8. En *Selección de componentes* (Choose components) dejar tildadas las opciones por defecto y hacer click en Continuar (Next):
+8. En *Selección de componentes* (Choose components) dejar tildadas las opciones por defecto y hacer click en *Continuar* (Next):
 
    ![Seleccionar componentes.](/images/7_choose_components.png "Seleccionar componentes")
 
-9. Seleccionar el directorio a dónde se va instalar y darle aceptar. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
+9. Seleccionar el directorio a dónde se va instalar y hacer click en *Instalar*. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
 
    ![Path.](/images/8_choose_install_location.png "Seleccionar path")
 
-10. Una vez que que la instalación ha culminado exitosamente, hacer click en Cerrar (Close).
+10. Una vez que que la instalación ha culminado exitosamente, hacer click en *Cerrar* (Close).
 
    ![Instalación exitosa.](/images/9_installation_successful.png "Instalación exitosa")
 
-11. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell. Dependiendo la versión de Windows puede variar la ubicación.
+11. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma.
 
     + Windows XP: C:\Documents and Settings\rafael\Configuración local\Datos de programa\Programs\minghc-7.10.2-i386\ghc-7.10.2\bin
 
