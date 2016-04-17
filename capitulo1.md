@@ -21,7 +21,7 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
 
    ![Windows.](/images/3_haskell_os.png "Windows")
                   
-5. Una vez que estamos en el proyecto MinGHC en Github, hacemos scroll en la página hasta llegar a la sección Legacy MinGHC installers. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
+5. Una vez que estamos en el proyecto MinGHC en Github, hacemos scroll en la página hasta llegar a la sección *Legacy MinGHC installers*. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
 
    ![Arquitectura.](/images/4_haskell_arch.png "Arquitectura")
    
@@ -41,7 +41,19 @@ ghc es el compilador optimizado para generar rápido código nativo; ghci es el 
 
    ![Path.](/images/8_choose_install_location.png "Seleccionar path")
 
-10. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell.
+10. Una vez que que la instalación ha culminado exitosamente, hacer click en Cerrar (Close).
+
+   ![Instalación exitosa.](/images/9_installation_successful.png "Instalación exitosa")
+
+11. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell. Dependiendo la versión de Windows puede variar la ubicación.
+
+    + Windows XP: C:\Documents and Settings\rafael\Configuración local\Datos de programa\Programs\minghc-7.10.2-i386\ghc-7.10.2\bin
+
+   ![Ejecutar intérprete.](/images/10_kickoff_interpreter.png "Abrir intérprete")
+
+   Otra manera de ejecutar el ínterprete es ir al menú de *Inicio* y hacer click en *Ejecutar*. Una vez que se abra la ventana, escribir ghci y aceptar:
+
+   ![Utilizando Ejecutar.](/images/11_kickoff_interpreter_another_way.png "Abrir intérprete")
 
 ##GNU/Linux
 
