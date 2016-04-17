@@ -47,13 +47,13 @@ intérprete y compilador. La distribución más activa es GHC (Glasgow Haskell C
 
 11. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma.
 
-    + Windows XP: C:\Documents and Settings\<usuario>\Configuración local\Datos de programa\Programs\minghc-7.10.2-i386\ghc-7.10.2\bin
+    + Windows XP: C:\Documents and Settings\*nombre_usuario*\Configuración local\Datos de programa\Programs\minghc-7.10.2-i386\ghc-7.10.2\bin
 
    ![Ejecutar intérprete.](/images/10_kickoff_interpreter.png "Abrir intérprete")
 
    Otra manera de ejecutar el ínterprete es ir al menú de *Inicio* y hacer click en *Ejecutar*. Una vez que se abra la ventana, escribir ghci y aceptar:
 
-   ![Utilizando Ejecutar.](/images/11_kickoff_another_way.png "Abrir intérprete")
+   ![Utilizando Ejecutar.](/images/11_kickoff_other_way.png "Abrir intérprete")
 
 ##GNU/Linux
 
