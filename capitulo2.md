@@ -12,11 +12,11 @@ Al iniciar GHCi automáticamente carga Prelude que es un conjunto de librerías 
 ###Listado de comandos útiles
 |Comando             |Función                                                                       |Ejemplo             |
 |--------------------|------------------------------------------------------------------------------|--------------------|
-|:?                  |Muestra la ayuda por consola, listando los principales comandos disponibles.  |                    |
+|:?<br>              |Muestra la ayuda por consola, listando los principales comandos disponibles.  |                    |
 |:help               |                                                                              |                    |
 |--------------------|------------------------------------------------------------------------------|--------------------|
-|:q                  |Termina la ejecución del ambiente interactivo.                                |                    |
-|:quit               |                                                                              |                    |
+|:q<br>              |Termina la ejecución del ambiente interactivo.                                |                    |
+|:quit<br>           |                                                                              |                    |
 |CTRL + D            |                                                                              |                    |
 |--------------------|------------------------------------------------------------------------------|--------------------|
 |:!clear             |Limpia el historial de ejecución en pantalla.                                 |                    |
