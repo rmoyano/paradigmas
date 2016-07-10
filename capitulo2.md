@@ -12,21 +12,12 @@ Al iniciar GHCi automáticamente carga Prelude que es un conjunto de librerías 
 ###Listado de comandos útiles
 |Comando             |Función                                                                       |Ejemplo             |
 |--------------------|------------------------------------------------------------------------------|--------------------|
-|:?<br>              |Muestra la ayuda por consola, listando los principales comandos disponibles.  |                    |
-|:help               |                                                                              |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
-|:q<br>              |Termina la ejecución del ambiente interactivo.                                |                    |
-|:quit<br>           |                                                                              |                    |
-|CTRL + D            |                                                                              |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
+|:? - :help          |Muestra la ayuda por consola, listando los principales comandos disponibles.  |                    |
+|:q - :quit - CTRL+D |Termina la ejecución del ambiente interactivo.                                |                    |
 |:!clear             |Limpia el historial de ejecución en pantalla.                                 |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
 |:load               |Compila y carga el módulo en GHCi.                                            |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
 |:reload             |Recarga el último módulo utilizado en GHCi.                                   |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
 |:show               |Muestra los módulos cargado en el ambiente                                    |                    |
-|--------------------|------------------------------------------------------------------------------|--------------------|
 
 ###Pasos:
 

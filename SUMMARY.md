@@ -1,5 +1,5 @@
 # Summary
 
 * [Introducción](intro.md)
-* [Capítulo 1 - Instalación de Haskell](capitulo1.md)
-* [Capítulo 2 - Manejo del intérprete](capitulo2.md)
+* [Instalación de Haskell](capitulo1.md)
+* [Manejo del ambiente interactivo](capitulo2.md)
