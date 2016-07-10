@@ -1,8 +1,8 @@
 #Instalación de Haskell
 
 Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerías, 
-intérprete y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
-*ghc* es el compilador optimizado para generar rápido código nativo; ghci es el intérprete y depurador interactivo. 
+ambiente interactivo y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
+*GHC* es el compilador optimizado para generar rápido código nativo; GHCi es el ambiente y depurador interactivo. 
 
 ##Microsoft Windows##
 
@@ -74,7 +74,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
 ```bash
    # apt-get update
 ```
-4. Buscar los paquetes de ghc (Glasgow Haskell Compiler): 
+4. Buscar los paquetes de GHC (Glasgow Haskell Compiler): 
 ```bash
    # apt-cache search glasgow
    bnfc - Compiler front-end generator based on Labelled BNF
@@ -83,7 +83,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
    ghc-dynamic - Dynamic libraries for the Glasgow Haskell Compilation system
    ghc-prof - Profiling libraries for the Glasgow Haskell Compilation system
 ```
-5. Instalar las librerías y respectivas dependencias:
+5. Instalar las librerías y sus respectivas dependencias:
 ```ShellSession
    # apt-get install ghc
    Leyendo lista de paquetes... Hecho
@@ -107,7 +107,7 @@ La instalación de Haskell la vamos a realizar en la distribución Debian; por l
    Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
 ```
-6. Para verificar la instalación exitosa, abra una consola y ejecute el intérprete de Haskell:
+6. Para verificar la instalación exitosa, abra una consola y ejecute el ambiente interativo de Haskell:
 ```Shell
    $ ghci
    Prelude>
