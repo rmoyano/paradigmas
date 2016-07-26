@@ -130,4 +130,3 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
 |:show               |Muestra los módulos cargado en el ambiente.                                   |Prelude> :show        |
 |↑, ↓                |Permiten navegar por el historial de ejecución en el ambiente.                |                      |
 |TAB                 |Permite autocompletar los comandos.                                           |                      |
-
