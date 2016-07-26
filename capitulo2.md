@@ -50,6 +50,9 @@ Otro ejemplo es la función *par* (Devuelve verdadero o falso):
   Prelude> even 11
   False
 ```
+##Comandos
+Los comandos son las instrucciones que utiliza el ambiente para el manejo del mismo. No están relacionadas con las funciones del lenguaje en sí mismo.
+
 La tecla TAB nos permite autocompletar las funciones y también muestra las opciones disponibles para terminar de completar de acuerdo a los caracteres que fuimos presionamos.
 ```Shell
   Prelude> a
@@ -57,17 +60,40 @@ La tecla TAB nos permite autocompletar las funciones y también muestra las opci
   Prelude> as
   asTypeOf  asin      asinh
 ```
-##Comandos
-Los comandos son las instrucciones que utiliza el ambiente para el manejo del mismo. No están relacionadas con las funciones del lenguaje en sí mismo.
 
-Utilizando los cursores para arriba(↑) o abajo (↓) permiten navegar por el historial de ejecución.
-Ejemplo utilizando el cursor para arriba:
+Utilizando las teclas de dirección para arriba(↑) o abajo (↓) permiten navegar por el historial de ejecución.
+Ejemplo utilizando la tecla de dirección para arriba 3 veces después de ejecutar las operaciones matemáticas:
 ```Shell
+   Prelude> 2+2
+   4
+   Prelude> 2*3
+   6
+   Prelude> 2**4
+   16.0
    Prelude> 2**4
    Prelude> 2*3
    Prelude> 2+2
 ```
-Para volver a ejecutar el último comando que hayamos empleado:
+Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter `` ':' `` como prefijo: 
+**:[comando]<expresión>**
+
+La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?*:
+```Shell
+   Prelude> :?
+   Commands available from the prompt:
+
+      <statement>                 evaluate/run <statement>
+      :                           repeat last command
+      :add [*]<module> ...        add module(s) to the current target set
+      :browse[!] [[*]<mod>]       display the names defined by module <mod> (!: more details; *: all top-level names)
+      :cd <dir>                   change directory to <dir>
+      :cmd <expr>                 run the commands returned by <expr>::IO String 
+      :def <cmd> <expr>           define command :<cmd> (later defined command has precedence, ::<cmd> is always a builtin command)
+      :edit <file>                edit file
+      ...
+      ...
+```
+Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecutamos:
 ```Shell
    Prelude> :show
    options currently set: none.
@@ -105,13 +131,6 @@ Para volver a ejecutar el último comando que hayamos empleado:
 |↑, ↓                 |Permiten navegar por el historial de ejecución en el ambiente.                |                      |
 |TAB                 |nos permite autocompletar los comandos.                                       |                      |
 
-###Ejecución:
-:help
-```Shell
-   Prelude> :?
-   Prelude> 
-```
-1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
-2. *Buscar* y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
 
+1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
    ![Sitio oficial del proyecto.](/images/1_haskell.png "Sitio oficial")
