@@ -74,7 +74,7 @@ Ejemplo utilizando la tecla de dirección para arriba 3 veces después de ejecut
    Prelude> 2*3
    Prelude> 2+2
 ```
-Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter `` ':' `` como prefijo: 
+Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter `` `:` `` como prefijo: 
 **:[comando]<expresión>**
 
 La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?*:

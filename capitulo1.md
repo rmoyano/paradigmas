@@ -2,7 +2,7 @@
 
 Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerías, 
 ambiente interactivo y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
-*GHC* es el compilador optimizado para generar rápido código nativo; GHCi es el ambiente y depurador interactivo. 
+*GHC* es el compilador optimizado para generar rápido código nativo; *GHCi* es el ambiente y depurador interactivo. 
 
 ##Microsoft Windows##
 
