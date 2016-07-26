@@ -74,7 +74,7 @@ Ejemplo utilizando la tecla de dirección para arriba 3 veces después de ejecut
    Prelude> 2*3
    Prelude> 2+2
 ```
-Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter `` `:` `` como prefijo: 
+Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter *:*  como prefijo: 
 **:[comando]<expresión>**
 
 La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?*:
@@ -128,9 +128,6 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
 |:load               |Carga un archivo de código fuente a GHCi.                                     |Prelude> :load hola.hs|
 |:reload             |Recarga el último archivo utilizado en GHCi.                                  |Prelude> :reload      |
 |:show               |Muestra los módulos cargado en el ambiente.                                   |Prelude> :show        |
-|↑, ↓                 |Permiten navegar por el historial de ejecución en el ambiente.                |                      |
-|TAB                 |nos permite autocompletar los comandos.                                       |                      |
+|↑, ↓                |Permiten navegar por el historial de ejecución en el ambiente.                |                      |
+|TAB                 |Permite autocompletar los comandos.                                           |                      |
 
-
-1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
-   ![Sitio oficial del proyecto.](/images/1_haskell.png "Sitio oficial")
