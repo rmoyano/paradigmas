@@ -24,8 +24,7 @@ Al ejecutar GHCi, va mostrando por la terminal:
 Prelude es el módulo que GHCi automáticamente llama y carga en memoria. Es un módulo que posee el conjunto de funciones destinadas a proporcionar las funcionalidades básicas para el ambiente.
 
 ###Built-in functions
-Entre las diversas funciones que *Prelude* provee por defecto están los operadores matemáticos (Suma, resta, multiplicación, división, potencia, etc.) que permiten utilizar el ambiente como una calculadora: 
-
+Entre las diversas funciones que *Prelude* provee por defecto están los operadores matemáticos (Suma, resta, multiplicación, división, potencia, etc.) que permiten utilizar el ambiente como una calculadora. Cuando se tipea una expresión en la consola, inmediatamente es evaluada por GHCi e imprime el resultado: 
 ```Shell
    Prelude> 2+2
    4
@@ -77,7 +76,7 @@ Ejemplo utilizando la tecla de dirección para arriba 3 veces después de ejecut
 Para ejecutar la mayoría de los comandos la sintaxis involucra el uso del caracter *:*  como prefijo: 
 **:[comando]<expresión>**
 
-La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?*:
+La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?* y muestra una lista de comandos disponibles:
 ```Shell
    Prelude> :?
    Commands available from the prompt:
@@ -116,6 +115,20 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
    other dynamic, non-language, flag settings:
    -fimplicit-import-qualified
    warning settings:
+```
+
+##Carga de archivos
+Dado que Haskell es un lenguaje funcional, vamos a comenzar creando un archivo y escribiendo una función en el mismo. Para ello abrimos cualquier editor
+de texto plano y guardamos el código como ejemplo.hs
+```Haskell
+   doble x = x * x 
+```
+Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo o en el que caso que se encuentre en el mismo lugar de dónde 
+ejecutamos GHCi, no hace falta indicarle la ruta absoluta, sólo con pasar como argumento el nombre del archivo es suficiente.
+```Shell
+   Prelude> :load ejemplo.hs
+
+   Prelude> :load /home/rafa/ejemplo.hs
 ```
 
 ###Resumen de Listado de comandos útiles
