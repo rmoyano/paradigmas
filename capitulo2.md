@@ -123,23 +123,37 @@ de texto plano como [Notepad++](https://notepad-plus-plus.org/) y guardamos el c
 ```Haskell
    doble x = x * x 
 ```
-Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo o en el que caso que se encuentre en el mismo lugar de dónde 
-ejecutamos GHCi, no hace falta indicarle la ruta absoluta, sólo con pasar como argumento el nombre del archivo es suficiente.
+Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo, en el que caso que se encuentre en el mismo lugar dónde 
+ejecutamos GHCi, sólo con pasar como argumento el nombre del archivo es suficiente:
 ```Shell
    Prelude> :load ejemplo.hs 
    [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
    Ok, modules loaded: Main.
+   *Main>
 ```
-El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado para disponer de la función como se precise.
+El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado para disponer de la función *doble* como se precise.
 
-En el caso de haber guardado el código en otro directorio, ingresamos el path absoluto hasta donde se encuentre el archivo.
+En el caso de haber guardado el código en otro directorio diferente, ingresamos el path absoluto hasta donde se encuentre el archivo:
 ``` 
 Shell
    Prelude> :load c:\directorio\subdirectorio\subdirectorio\ejemplo.hs
    [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
    Ok, modules loaded: Main.
+   *Main>
+```
+Ahora queremos comentar para futuros desarrolladores el objetivo que cumple la función.
+```Haskell
+   -- Función que calcula el doble del número ingresado como argumento.
+   doble x = x * x 
 ```
 
+Guardamos los cambios y en vez escribir el comando *load*, podemos utilizar llamado *reload* que sirve para volver a cargar el último módulo utilizado:
+```Shell
+   Prelude> :reload
+   [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
+   Ok, modules loaded: Main.
+   *Main>
+```
 
 ###Resumen de Listado de comandos útiles
 |Comando             |Función                                                                       |Ejemplo               |
