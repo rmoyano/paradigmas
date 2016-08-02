@@ -118,18 +118,28 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
 ```
 
 ##Carga de archivos
-Dado que Haskell es un lenguaje funcional, vamos a comenzar creando un archivo y escribiendo una función en el mismo. Para ello abrimos cualquier editor
-de texto plano y guardamos el código como ejemplo.hs
+Dado que Haskell es un lenguaje funcional, vamos a comenzar creando un archivo y escribiendo una función en el mismo. Para tal fin necesitamos cualquier editor
+de texto plano como [Notepad++](https://notepad-plus-plus.org/) y guardamos el código como ejemplo.hs:
 ```Haskell
    doble x = x * x 
 ```
 Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo o en el que caso que se encuentre en el mismo lugar de dónde 
 ejecutamos GHCi, no hace falta indicarle la ruta absoluta, sólo con pasar como argumento el nombre del archivo es suficiente.
 ```Shell
-   Prelude> :load ejemplo.hs
-
-   Prelude> :load /home/rafa/ejemplo.hs
+   Prelude> :load ejemplo.hs 
+   [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
+   Ok, modules loaded: Main.
 ```
+El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado para disponer de la función como se precise.
+
+En el caso de haber guardado el código en otro directorio, ingresamos el path absoluto hasta donde se encuentre el archivo.
+``` 
+Shell
+   Prelude> :load c:\directorio\subdirectorio\subdirectorio\ejemplo.hs
+   [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
+   Ok, modules loaded: Main.
+```
+
 
 ###Resumen de Listado de comandos útiles
 |Comando             |Función                                                                       |Ejemplo               |
