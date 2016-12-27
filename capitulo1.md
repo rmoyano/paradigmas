@@ -1,8 +1,12 @@
 #Instalación de Haskell
 
-Para poder programar en Haskell necesitamos descargar e instalar el conjunto de librerías, 
-ambiente interactivo y compilador. La distribución más activa es GHC (Glasgow Haskell Compiler). 
-*GHC* es el compilador optimizado para generar rápido código nativo; *GHCi* es el ambiente y depurador interactivo. 
+Para poder iniciarse en la programación en Haskell, proponemos que su estudio como las pruebas que 
+se consideren necesarias, se realicen en los equipos particulares. Por lo tanto se hace necesario 
+descargar e instalar el conjunto de librerías, ambiente interactivo y compilador correspondiente.
+Dentro de los proyetos de software libre disponibles, la cátedra ha elegido una de las distribuciones
+más activas de la comunidad de programación llamada Glasgow Haskell Compiler (GHC). 
+Mas precisamente, al hacer referencia a *GHC*, debemos relacionarlo con un compilador optimizado para 
+generar código nativo y *GHCi*, hace referencia al ambiente y depurador interactivo.
 
 ##Microsoft Windows##
 
@@ -56,8 +60,11 @@ ambiente interactivo y compilador. La distribución más activa es GHC (Glasgow 
    ![Utilizando Ejecutar.](/images/11_kickoff_other_way.png "Abrir intérprete")
 
 ##GNU/Linux
-
-La instalación de Haskell la vamos a realizar en la distribución Debian; por lo cual en distribuciones derivadas como Ubuntu o Linux Mint el procedimiento de instalación es similar y también debería funcionar sin inconvenientes.
+Para esta plataforma, la instalación de Haskell se realizará en la distribución Debian
+que dispone del gestor de paquetes APT. En distribuciones derivadas como Ubuntu, 
+Trisquel, Linux Mint, etc. el procedimiento de instalación es similar y debería culminar sin inconvenientes.
+Para otras distribuciones como Centos, Fedora, Mageia, etc. el procedimiento de instalación puede ser similar
+pero se ajusta a los propios gestores de paquetes. 
 
 ###Pasos:
 

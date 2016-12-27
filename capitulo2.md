@@ -1,8 +1,18 @@
 #GHCi: El ambiente interactivo de Haskell. 
 
-En éste capítulo vamos a aprender como utilizar el ambiente interactivo del lenguaje, que facilita la tarea de desarrollo al programador. 
-En GHCi se evalúan las expresiones de Haskell interactivamente y los programas interpretados. GHCi también tiene soporte para cargar interactivamente 
-código compilado, así como soporte para todas las extensiones del lenguaje que GHC provee. GHCi además incluye un depurador interactivo (see The GHCi Debugger).
+En ésta sección del documento, se explicará como utilizar el ambiente interactivo del
+lenguaje, cuyo uso va a facilitar la tarea de desarrollo al programador.
+Antes de continuar vamos a explicar la diferencia entre lenguajes interpretados y
+lenguajes compilados. La compilación es el proceso de traducir el código fuente de
+un programa a código objeto, generando el ejecutable o binario. El programa encargado de 
+compilar se llama compilador.
+Para los lenguajes interpretados, cada instrucción debe pasar por una interpretación en tiempo de ejecución, 
+intenta realizar "al vuelo" lo que se expresa en los ficheros fuente. El encargado de hacer esto es un 
+programa llamado intérprete. A diferencia del compilador, el intérprete de un lenguaje no produce una 
+traducción a código máquina.
+La tarea de GHCi consiste en evalúar las expresiones de Haskell interactivamente además de soportar 
+la carga de código compilado, así como el soporte para todas las extensiones del lenguaje que GHC provee.
+Asimismo, GHCi incluye un depurador interactivo (The GHCi Debugger).
 
 ## Manejo del ambiente
 Al ejecutar GHCi, va mostrando por la terminal:
@@ -52,7 +62,7 @@ Otro ejemplo es la función *par* (Devuelve verdadero o falso):
 ##Comandos
 Los comandos son las instrucciones que utiliza el ambiente para el manejo del mismo. No están relacionadas con las funciones del lenguaje en sí mismo.
 
-La tecla TAB nos permite autocompletar las funciones y también muestra las opciones disponibles para terminar de completar de acuerdo a los caracteres que fuimos presionamos.
+La tecla TAB nos permite autocompletar las funciones y comandos mostrando las opciones disponibles para terminar de completar de acuerdo a los caracteres que fuimos presionamos.
 ```Shell
   Prelude> a
   abs         acos        acosh       all         and         any         appendFile  asTypeOf    asin        asinh       atan        atan2       atanh
@@ -119,20 +129,24 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
 
 ##Carga de archivos
 Dado que Haskell es un lenguaje funcional, vamos a comenzar creando un archivo y escribiendo una función en el mismo. Para tal fin necesitamos cualquier editor
-de texto plano como [Notepad++](https://notepad-plus-plus.org/) y guardamos el código como ejemplo.hs:
+de texto plano como [Notepad++](https://notepad-plus-plus.org/) y guardamos el código con el nombre ejemplo.hs,
+siendo .hs la extensión para el código fuente de Haskell como lo es .cpp para C++:
 ```Haskell
    doble x = x * x 
 ```
-Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo, en el que caso que se encuentre en el mismo lugar dónde 
-ejecutamos GHCi, sólo con pasar como argumento el nombre del archivo es suficiente:
+Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo, en el que caso que se encuentre en el mismo lugar dónde ejecutamos GHCi, sólo con pasar como argumento el nombre del archivo es suficiente:
 ```Shell
    Prelude> :load ejemplo.hs 
    [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
    Ok, modules loaded: Main.
    *Main>
 ```
-El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado para disponer de la función *doble* como se precise.
+El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado por lo que lo probamos llamando a la función doble con el valor 4 como argumento:
+```Shell
+   *Main> doble 4
+       16
 
+```
 En el caso de haber guardado el código en otro directorio diferente, ingresamos el path absoluto hasta donde se encuentre el archivo:
 ``` 
 Shell
@@ -141,21 +155,27 @@ Shell
    Ok, modules loaded: Main.
    *Main>
 ```
-Ahora queremos comentar para futuros desarrolladores el objetivo que cumple la función.
+También podemos comentar el objetvio que cumple la función para futuros desarrolladores.
 ```Haskell
    -- Función que calcula el doble del número ingresado como argumento.
    doble x = x * x 
 ```
 
-Guardamos los cambios y en vez escribir el comando *load*, podemos utilizar llamado *reload* que sirve para volver a cargar el último módulo utilizado:
+Guardamos los cambios y en vez escribir el comando *load*, podemos utilizar otro comando llamado *reload* que sirve para volver a cargar el último módulo utilizado:
 ```Shell
    Prelude> :reload
    [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
    Ok, modules loaded: Main.
    *Main>
 ```
+Sin utilizar GHCi el procedimiento para ejecutar el código sería muy similar a C o C+
++. Escribimos el código fuente en un archivo con extensión .hs y después hay que
+compilarlo para generar el ejecutable. Utilizando GHCi, una vez realizada la
+compilación del código que escribimos, queda listo para ser utilizado dentro del
+ambiente, pudiendo realizar todas las pruebas que hagan falta para encontrar posibles
+errores y corregirlo hasta que cumpla con el requerimiento definido previamente.
 
-###Resumen de Listado de comandos útiles
+###Resumen de comandos útiles
 |Comando             |Función                                                                       |Ejemplo               |
 |--------------------|------------------------------------------------------------------------------|----------------------|
 |:?, :help           |Muestra la ayuda por consola, listando los principales comandos disponibles.  |Prelude> :?           |
