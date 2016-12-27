@@ -2,14 +2,16 @@
 
 En ésta sección del documento, se explicará como utilizar el ambiente interactivo del
 lenguaje, cuyo uso va a facilitar la tarea de desarrollo al programador.
+
 Antes de continuar vamos a explicar la diferencia entre lenguajes interpretados y
-lenguajes compilados. La compilación es el proceso de traducir el código fuente de
-un programa a código objeto, generando el ejecutable o binario. El programa encargado de 
-compilar se llama compilador.
+lenguajes compilados. 
+La compilación es el proceso de traducir el código fuente de un programa a código objeto, generando 
+el ejecutable o binario. El programa encargado de compilar se llama compilador.
 Para los lenguajes interpretados, cada instrucción debe pasar por una interpretación en tiempo de ejecución, 
 intenta realizar "al vuelo" lo que se expresa en los ficheros fuente. El encargado de hacer esto es un 
 programa llamado intérprete. A diferencia del compilador, el intérprete de un lenguaje no produce una 
 traducción a código máquina.
+
 La tarea de GHCi consiste en evalúar las expresiones de Haskell interactivamente además de soportar 
 la carga de código compilado, así como el soporte para todas las extensiones del lenguaje que GHC provee.
 Asimismo, GHCi incluye un depurador interactivo (The GHCi Debugger).
