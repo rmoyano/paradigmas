@@ -15,49 +15,81 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
 2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
 
-   ![Sitio oficial del proyecto.](/images/1_haskell.png "Sitio oficial")
+   ![Sitio oficial del proyecto.](/images/2_haskell.png "Sitio oficial")
    
-3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la instalación mínima [(Minimal installers)](https://www.haskell.org/downloads#minimal) por lo que hacemos click en el enlace a esa sección.
+3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la Plataforma Haskell [(Haskell Platform)](https://www.haskell.org/downloads#platform), que es la recomendada por el proyecto. La plataforma incluye el Stack Haskell y lo instala como un componente independiente. A continuación, hacemos click en el enlace a esa sección.
 
-   ![Minimal installers.](/images/2_haskell_downloads.png "Minimal installers")
+   ![Haskell Platform.](/images/3_haskell_downloads.png "Haskell Platform.")
 
-4. Seleccionar el sistema operativo [Windows](https://github.com/fpco/minghc#using-the-installer):
+4. Seleccionar el sistema operativo [Windows](https://www.haskell.org/platform/windows.html):
 
-   ![Windows.](/images/3_haskell_os.png "Windows")
+   ![Windows.](/images/4_haskell_os.png "Windows")
                   
-5. Una vez que ingresamos a la página del proyecto *MinGHC* en Github, hacemos scroll-down en la página hasta llegar a la sección *Legacy MinGHC installers*. Seleccionar y hacer click para descargar el ejecutable MinGHC, dependiendo de la arquitectura de su computadora (32 o 64 bits).
+5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Dependiendo de la arquitectura de su computadora (32 o 64 bits), hacer click para descargar el ejecutable correspondiente.
 
-   ![Arquitectura.](/images/4_haskell_arch.png "Arquitectura")
+   ![Arquitectura.](/images/5_haskell_arch.png "Arquitectura")
    
 6. Guarde el instalador en su computadora (Se puede demorar un par de minutos dependiendo de su velocidad de conexión a Internet):
 
-   ![Guardar.](/images/5_save_exe.png "Guardar")
+   ![Guardar.](/images/6_save_exe.png "Guardar")
 
 7. Una vez finalizada la descarga, ejecutar el instalador: 
 
-   ![Instalar.](/images/6_execute_exe.png "Instalar")
+   ![Instalar.](/images/7_execute_exe.png "Instalar")
 
-8. En *Selección de componentes* (Choose components) dejar tildadas las opciones por defecto y hacer click en *Continuar* (Next):
+8. En *Acuerdo de Licenciamiento* (License Agreement) hay que *Aceptar* (I agree) los términos de las licencias: 
 
-   ![Seleccionar componentes.](/images/7_choose_components.png "Seleccionar componentes")
+   ![Seleccionar componentes.](/images/8_license.png "Licencia.")
 
-9. Seleccionar el directorio a dónde se va instalar y hacer click en *Instalar*. (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
+9. Seleccionar el directorio a dónde se va instalar y hacer click en *Siguiente*(Next). (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
 
-   ![Path.](/images/8_choose_install_location.png "Seleccionar path")
+   ![Path.](/images/9_choose_install_location.png "Seleccionar path")
 
-10. Una vez que que la instalación ha culminado exitosamente, hacer click en *Cerrar* (Close).
+10. En *Selección de componentes* (Choose components) dejar tildadas las opciones por defecto y hacer click en *Continuar* (Next):
 
-   ![Instalación exitosa.](/images/9_installation_successful.png "Instalación exitosa")
+   ![Seleccionar componentes.](/images/10_choose_components.png "Seleccionar componentes")
 
-11. Buscar la carpeta a donde se instaló y ejecutar ghci.exe para abrir el intérprete de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma.
+11. En *Selección de directorio de inicio* (Start menu folder) utilizar la opción por defecto y hacer click en *Instalar* (Install).
 
-    + Windows XP: C:\Documents and Settings\\*nombre_usuario*\Configuración local\Datos de programa\Programs\minghc-7.10.2-i386\ghc-7.10.2\bin
+   ![Selección de directorio de inicio.](/images/11_start_menu.png "Start menu")
 
-   ![Ejecutar intérprete.](/images/10_kickoff_interpreter.png "Abrir intérprete")
+12. Elegir el directorio de instalación del *Stack Haskell* (Haskell Stack setup) y hacer click en *Siguiente* (Next).
 
-   Otra manera de ejecutar el ínterprete es ir al menú de *Inicio* y hacer click en *Ejecutar*. Una vez que se abra la ventana, escribir ghci y hacer click en *Aceptar*:
+   ![Directorio de instalación.](/images/12_haskell_stack_setup.png "Haskell Stack setup")
 
-   ![Utilizando Ejecutar.](/images/11_kickoff_other_way.png "Abrir intérprete")
+13. En *Selección de componentes* (Choose components) dejar tildadas las opciones por defecto y hacer click en *Instalar* (Install):
+
+   ![Seleccionar componentes.](/images/13_haskell_stack_components.png "Seleccionar componentes")
+
+14. Una vez que que la instalación del Stack Haskell ha culminado exitosamente, hacer click en *Cerrar* (Close).
+
+   ![Instalación exitosa.](/images/14_stack_successful_installation.png "Instalación exitosa")
+
+15. El resto de los componentes de la plataforma continua instalándose.
+
+   ![Progreso de instalación.](/images/15_platform_progress.png "Progreso de instalación")
+
+16. Una vez que que la instalación ha culminado exitosamente, hacer click en *Siguiente* (Next).
+
+   ![Instalación exitosa.](/images/16_successful_installation.png "Instalación exitosa")
+
+17. Cerrar el asistente de instalación, hacer click en *Terminar* (Finish).
+
+   ![Cerrar asistente.](/images/17_close_installer.png "Cerrar asistente de instalación")
+
+18. Para ejecutar el ambiente interactivo GHCI vamos al menú Inicio, click en *Todos los programas*, seleccionamos *Haskell Platform* y hacemos click en *WinGHCi*. 
+
+   ![Ejecutar GHCi.](/images/18_kickoff_winghci.png "Abrir GHCi")
+
+    Otra forma es buscar la carpeta donde se instaló y ejecutar winghci.exe para abrir el ambiente interactivo de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma.
+
+    + Windows XP: C:\Archivos de Programa\Haskell Platform\8.0.2\winghci.exe
+
+   ![Ejecutar GHCi.](/images/18b_winghci_exe.png "Abrir GHCi")
+
+19. WinGHCi se abrirá para empezar a probar Haskell. 
+
+   ![WinGHCi.](/images/19_winghci.png "Abrir GHCi")
 
 ##GNU/Linux
 Para esta plataforma, la instalación de Haskell se realizará en la distribución Debian
@@ -72,7 +104,7 @@ pero se ajusta a los propios gestores de paquetes.
 ```bash
 # vi /etc/apt/sources.list
 ```
-2. Agregar alguno de los repositorios de Argentina:
+2. Agregar alguno de los repositorios disponibles en Argentina, yo elegí ARSAT:
 ```bash
    deb http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
    deb-src http://mirrors.dcarsat.com.ar/debian/ stable main contrib non-free
@@ -97,25 +129,23 @@ pero se ajusta a los propios gestores de paquetes.
    Creando árbol de dependencias       
    Leyendo la información de estado... Hecho
    Se instalarán los siguientes paquetes extras:
-       binutils cpp cpp-4.9 gcc gcc-4.9 libasan0 libasan1 libatomic1 libbsd-dev libcilkrts5
-       libcloog-isl4 libffi-dev libgcc-4.8-dev libgcc-4.9-dev libgmp-dev libgmpxx4ldbl libgomp1
-       libisl10 libitm1 liblsan0 libmpc3 libmpfr4 libquadmath0 libstdc++-4.8-dev libtsan0 libubsan0
+       libbsd-dev libffi-dev libgmp-dev libgmpxx4ldbl
    Paquetes sugeridos:
-       binutils-doc cpp-doc gcc-4.9-locales gcc-multilib make autoconf automake libtool flex bison
-       gdb gcc-doc gcc-4.9-multilib gcc-4.9-doc libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg
-       libasan1-dbg liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libquadmath0-dbg
-       ghc-prof ghc-doc haskell-doc llvm libgmp10-doc libmpfr-dev libstdc++-4.8-doc
+       ghc-prof ghc-doc haskell-doc llvm libgmp10-doc libmpfr-dev
    Se instalarán los siguientes paquetes NUEVOS:
-       binutils cpp cpp-4.9 gcc gcc-4.9 ghc libasan0 libasan1 libatomic1 libbsd-dev libcilkrts5
-       libcloog-isl4 libffi-dev libgcc-4.8-dev libgcc-4.9-dev libgmp-dev libgmpxx4ldbl libgomp1
-       libisl10 libitm1 liblsan0 libmpc3 libmpfr4 libquadmath0 libstdc++-4.8-dev libtsan0 libubsan0
-   0 actualizados, 27 nuevos se instalar�n, 0 para eliminar y 23 no actualizados.
-   Se necesita descargar 47,1 MB de archivos.
-   Se utilizarán 384 MB de espacio de disco adicional después de esta operación.
+       ghc libbsd-dev libffi-dev libgmp-dev libgmpxx4ldbl
+   0 actualizados, 5 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+   Se necesita descargar 26,3 MB de archivos.
+   Se utilizarán 295 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
 ```
 6. Para verificar la instalación exitosa, abra una consola y ejecute el ambiente interativo de Haskell:
 ```Shell
    $ ghci
-   Prelude>
+   GHCi, version 7.6.3: http://www.haskell.org/ghc/  :? for help
+   Loading package ghc-prim ... linking ... done.
+   Loading package integer-gmp ... linking ... done.
+   Loading package base ... linking ... done.
+   Prelude> 2**3
+   8.0
 ```

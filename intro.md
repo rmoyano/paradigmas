@@ -1,9 +1,10 @@
-Apunte de la materia *Paradigmas de Programación*.
+Apunte de practica de la materia *Paradigmas de Programación*.
 =======
 ### Proyecto de documentación de la materia dictada en segundo año de la carrera de Ingenería en Sistemas de Información de la Universidad Nacional de La Rioja.
 
 ###Objetivo
 Este trabajo es un borrador en evolución permanente, surgió con el fin de servir como guía a los alumnos durante el cursado de la asignatura. Con el tiempo y mucha paciencia, voy a ir redactando nuevos capítulos hasta abarcar la mayoría del contenido de la materia.
+La última versión es 0.2.6, pueden consultar el [historial de cambios](https://github.com/rmoyano/paradigmas/blob/master/changelog.md "Historial de cambios") por cualquier duda.
 
 ###¿Cómo colaborar?
 - Creando una nueva [discusión](https://www.gitbook.com/book/rmoyano/paradigmas/discussions), para ello primero deben registrarse en Gitbook o loguearse usando alguna cuenta de Facebook, Github, Google o Twitter. 
