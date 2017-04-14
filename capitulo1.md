@@ -13,11 +13,11 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 ###Pasos:
 
 1. Ir al sitio oficial del lenguaje de programación [Haskell](https://www.haskell.org "Haskell"). 
-2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas").
+2. Buscar y hacer click en la sección [Downloads](https://www.haskell.org/downloads "Descargas"):
 
    ![Sitio oficial del proyecto.](/images/2_haskell.png "Sitio oficial")
    
-3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la Plataforma Haskell [(Haskell Platform)](https://www.haskell.org/downloads#platform), que es la recomendada por el proyecto. La plataforma incluye el Stack Haskell y lo instala como un componente independiente. A continuación, hacemos click en el enlace a esa sección.
+3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la Plataforma Haskell [(Haskell Platform)](https://www.haskell.org/downloads#platform), que es la recomendada por el proyecto. La plataforma incluye el Stack Haskell y lo instala como un componente independiente. A continuación, hacemos click en el enlace a esa sección:
 
    ![Haskell Platform.](/images/3_haskell_downloads.png "Haskell Platform.")
 
@@ -25,7 +25,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Windows.](/images/4_haskell_os.png "Windows")
                   
-5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Dependiendo de la arquitectura de su computadora (32 o 64 bits), hacer click para descargar el ejecutable correspondiente.
+5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Dependiendo de la arquitectura de su computadora (32 o 64 bits), hacer click para descargar el ejecutable correspondiente:
 
    ![Arquitectura.](/images/5_haskell_arch.png "Arquitectura")
    
@@ -41,7 +41,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Seleccionar componentes.](/images/8_license.png "Licencia.")
 
-9. Seleccionar el directorio a dónde se va instalar y hacer click en *Siguiente*(Next). (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
+9. Seleccionar el directorio a dónde se va instalar y hacer click en *Siguiente* (Next). (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
 
    ![Path.](/images/9_choose_install_location.png "Seleccionar path")
 
@@ -49,11 +49,11 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Seleccionar componentes.](/images/10_choose_components.png "Seleccionar componentes")
 
-11. En *Selección de directorio de inicio* (Start menu folder) utilizar la opción por defecto y hacer click en *Instalar* (Install).
+11. En *Selección de directorio de inicio* (Start menu folder) utilizar la opción por defecto y hacer click en *Instalar* (Install):
 
    ![Selección de directorio de inicio.](/images/11_start_menu.png "Start menu")
 
-12. Elegir el directorio de instalación del *Stack Haskell* (Haskell Stack setup) y hacer click en *Siguiente* (Next).
+12. Elegir el directorio de instalación del *Stack Haskell* (Haskell Stack setup) y hacer click en *Siguiente* (Next):
 
    ![Directorio de instalación.](/images/12_haskell_stack_setup.png "Haskell Stack setup")
 
@@ -61,7 +61,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Seleccionar componentes.](/images/13_haskell_stack_components.png "Seleccionar componentes")
 
-14. Una vez que que la instalación del Stack Haskell ha culminado exitosamente, hacer click en *Cerrar* (Close).
+14. Una vez que que la instalación del Stack Haskell ha culminado exitosamente, hacer click en *Cerrar* (Close):
 
    ![Instalación exitosa.](/images/14_stack_successful_installation.png "Instalación exitosa")
 
@@ -69,25 +69,25 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Progreso de instalación.](/images/15_platform_progress.png "Progreso de instalación")
 
-16. Una vez que que la instalación ha culminado exitosamente, hacer click en *Siguiente* (Next).
+16. Una vez que que la instalación ha culminado exitosamente, hacer click en *Siguiente* (Next):
 
    ![Instalación exitosa.](/images/16_successful_installation.png "Instalación exitosa")
 
-17. Cerrar el asistente de instalación, hacer click en *Terminar* (Finish).
+17. Cerrar el asistente de instalación, hacer click en *Terminar* (Finish):
 
    ![Cerrar asistente.](/images/17_close_installer.png "Cerrar asistente de instalación")
 
-18. Para ejecutar el ambiente interactivo GHCI vamos al menú Inicio, click en *Todos los programas*, seleccionamos *Haskell Platform* y hacemos click en *WinGHCi*. 
+18. Para ejecutar el ambiente interactivo GHCI vamos al menú Inicio, click en *Todos los programas*, seleccionamos *Haskell Platform* y hacemos click en *WinGHCi*: 
 
    ![Ejecutar GHCi.](/images/18_kickoff_winghci.png "Abrir GHCi")
 
-    Otra forma es buscar la carpeta donde se instaló y ejecutar winghci.exe para abrir el ambiente interactivo de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma.
+    Otra forma es buscar la carpeta donde se instaló y ejecutar winghci.exe para abrir el ambiente interactivo de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma:
 
-    + Windows XP: C:\Archivos de Programa\Haskell Platform\8.0.2\winghci.exe
+    + *Windows XP*: C:\Archivos de Programa\Haskell Platform\8.0.2\winghci.exe
 
    ![Ejecutar GHCi.](/images/18b_winghci_exe.png "Abrir GHCi")
 
-19. WinGHCi se abrirá para empezar a probar Haskell. 
+19. WinGHCi se abrirá para empezar a probar Haskell:
 
    ![WinGHCi.](/images/19_winghci.png "Abrir GHCi")
 
@@ -139,13 +139,12 @@ pero se ajusta a los propios gestores de paquetes.
    Se utilizarán 295 MB de espacio de disco adicional después de esta operación.
    ¿Desea continuar? [S/n]
 ```
-6. Para verificar la instalación exitosa, abra una consola y ejecute el ambiente interativo de Haskell:
+6. Para verificar la instalación exitosa, abra una terminal y ejecute el comando para abrir el ambiente interactivo de Haskell:
 ```Shell
    $ ghci
    GHCi, version 7.6.3: http://www.haskell.org/ghc/  :? for help
    Loading package ghc-prim ... linking ... done.
    Loading package integer-gmp ... linking ... done.
    Loading package base ... linking ... done.
-   Prelude> 2**3
-   8.0
+   Prelude>
 ```
