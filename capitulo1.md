@@ -25,7 +25,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Windows.](/images/4_haskell_os.png "Windows")
                   
-5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Dependiendo de la arquitectura de su computadora (32 o 64 bits), hacer click para descargar el ejecutable correspondiente:
+5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Elegir el ejecutable dependiendo de la arquitectura de su computadora (32 o 64 bits) y se recomienda la versión core, ya que la versión full incluye librerías que no vamos a llegar a cubrir en el curso:
 
    ![Arquitectura.](/images/5_haskell_arch.png "Arquitectura")
    
@@ -41,7 +41,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Seleccionar componentes.](/images/8_license.png "Licencia.")
 
-9. Seleccionar el directorio a dónde se va instalar y hacer click en *Siguiente* (Next). (En netbooks con escasa memoria RAM, se puede demorar varios minutos.)
+9. Seleccionar el directorio a dónde se va instalar y hacer click en *Siguiente* (Next): 
 
    ![Path.](/images/9_choose_install_location.png "Seleccionar path")
 
@@ -65,7 +65,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Instalación exitosa.](/images/14_stack_successful_installation.png "Instalación exitosa")
 
-15. El resto de los componentes de la plataforma continua instalándose.
+15. El resto de los componentes de la plataforma continuarán instalándose:
 
    ![Progreso de instalación.](/images/15_platform_progress.png "Progreso de instalación")
 
@@ -73,23 +73,25 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Instalación exitosa.](/images/16_successful_installation.png "Instalación exitosa")
 
-17. Cerrar el asistente de instalación, hacer click en *Terminar* (Finish):
+17. Para cerrar el asistente de instalación, hacer click en *Terminar* (Finish):
 
    ![Cerrar asistente.](/images/17_close_installer.png "Cerrar asistente de instalación")
 
-18. Para ejecutar el ambiente interactivo GHCI vamos al menú Inicio, click en *Todos los programas*, seleccionamos *Haskell Platform* y hacemos click en *WinGHCi*: 
+18. Para ejecutar el ambiente interactivo GHCI vamos al menú *Inicio*, click en *Todos los programas*, seleccionamos *Haskell Platform* y hacemos click en *WinGHCi*: 
 
    ![Ejecutar GHCi.](/images/18_kickoff_winghci.png "Abrir GHCi")
 
-    Otra forma es buscar la carpeta donde se instaló y ejecutar winghci.exe para abrir el ambiente interactivo de Haskell. Dependiendo la versión de Windows puede variar la ubicación de la misma:
+    Otra forma es buscar la carpeta donde se instaló y ejecutar winghci.exe para abrir el ambiente interactivo de Haskell. La ubicación puede variar dependiendo de la versión de Windows:
 
     + *Windows XP*: C:\Archivos de Programa\Haskell Platform\8.0.2\winghci.exe
 
+
    ![Ejecutar GHCi.](/images/18b_winghci_exe.png "Abrir GHCi")
 
-19. WinGHCi se abrirá para empezar a probar Haskell:
+19. Finalmente, *WinGHCi* se abrirá para poder empezar a probar Haskell:
 
    ![WinGHCi.](/images/19_winghci.png "Abrir GHCi")
+
 
 ##GNU/Linux
 Para esta plataforma, la instalación de Haskell se realizará en la distribución Debian
