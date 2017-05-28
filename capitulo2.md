@@ -134,7 +134,7 @@ Dado que Haskell es un lenguaje funcional, vamos a comenzar creando un archivo y
 de texto plano como [Notepad++](https://notepad-plus-plus.org/) y guardamos el código con el nombre ejemplo.hs,
 siendo .hs la extensión para el código fuente de Haskell como lo es .cpp para C++:
 ```Haskell
-   doble x = x * x 
+   doble x = x * 2 
 ```
 Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra el archivo, en el que caso que se encuentre en el mismo lugar dónde ejecutamos GHCi, sólo con pasar como argumento el nombre del archivo es suficiente:
 ```Shell
