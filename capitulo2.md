@@ -8,13 +8,13 @@ lenguajes compilados.
 La compilación es el proceso de traducir el código fuente de un programa a código objeto, generando 
 el ejecutable o binario. El programa encargado de compilar se llama compilador.
 Para los lenguajes interpretados, cada instrucción debe pasar por una interpretación en tiempo de ejecución, 
-intenta realizar "al vuelo" lo que se expresa en los ficheros fuente. El encargado de hacer esto es un 
+intenta realizar "al vuelo" lo que se expresa en los archivos fuente. El encargado de hacer esto es un 
 programa llamado intérprete. A diferencia del compilador, el intérprete de un lenguaje no produce una 
 traducción a código máquina.
 
 La tarea de GHCi consiste en evalúar las expresiones de Haskell interactivamente además de soportar 
 la carga de código compilado, así como el soporte para todas las extensiones del lenguaje que GHC provee.
-Asimismo, GHCi incluye un depurador interactivo (The GHCi Debugger).
+Asimismo, GHCi incluye un depurador interactivo (GHCi Debugger).
 
 ## Manejo del ambiente
 Al ejecutar GHCi, va mostrando por la terminal:

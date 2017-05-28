@@ -1,9 +1,9 @@
 #Instalación de Haskell
 
-Para poder iniciarse en la programación en Haskell, proponemos que su estudio como las pruebas que 
-se consideren necesarias, se realicen en los equipos particulares. Por lo tanto se hace necesario 
-descargar e instalar el conjunto de librerías, ambiente interactivo y compilador correspondiente.
-Dentro de los proyetos de software libre disponibles, la cátedra ha elegido una de las distribuciones
+Para poder aprender los fundamentos de programación en Haskell hace falta practicar, por lo que su estudio 
+como las pruebas, es mejor realizarlas en sus máquinas que ya se encuentran personalizadas a gusto de cada uno.
+Por lo tanto, se hace necesario descargar e instalar el conjunto de librerías, ambiente interactivo y compilador correspondiente.
+Dentro de los proyectos de software libre disponibles en Internet, la cátedra ha elegido una de las distribuciones
 más activas de la comunidad de programación llamada Glasgow Haskell Compiler (GHC). 
 Mas precisamente, al hacer referencia a *GHC*, debemos relacionarlo con un compilador optimizado para 
 generar código nativo y *GHCi*, hace referencia al ambiente y depurador interactivo.
@@ -17,7 +17,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Sitio oficial del proyecto.](/images/2_haskell.png "Sitio oficial")
    
-3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la Plataforma Haskell [(Haskell Platform)](https://www.haskell.org/downloads#platform), que es la recomendada por el proyecto. La plataforma incluye el Stack Haskell y lo instala como un componente independiente. A continuación, hacemos click en el enlace a esa sección:
+3. Haskell provee tres opciones para instalarlo. Vamos a utilizar la [*Plataforma Haskell*](https://www.haskell.org/downloads#platform), que es la recomendada por el proyecto. Esta incluye el Stack Haskell y lo instala como un componente independiente. A continuación, hacemos click en el enlace a esa sección:
 
    ![Haskell Platform.](/images/3_haskell_downloads.png "Haskell Platform.")
 
@@ -25,7 +25,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Windows.](/images/4_haskell_os.png "Windows")
                   
-5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Elegir el ejecutable dependiendo de la arquitectura de su computadora (32 o 64 bits) y se recomienda la versión core, ya que la versión full incluye librerías que no vamos a llegar a cubrir en el curso:
+5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Elegir el ejecutable dependiendo de la arquitectura de su computadora (32 o 64 bits) y si es el instalador full o core. Se recomienda la versión core, ya que la versión full incluye librerías que no vamos a llegar a cubrir en el curso:
 
    ![Arquitectura.](/images/5_haskell_arch.png "Arquitectura")
    
@@ -88,7 +88,7 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![Ejecutar GHCi.](/images/18b_winghci_exe.png "Abrir GHCi")
 
-19. Finalmente, *WinGHCi* se abrirá para poder empezar a probar Haskell:
+19. Finalmente, *WinGHCi* se abrirá para poder empezar a programar en Haskell:
 
    ![WinGHCi.](/images/19_winghci.png "Abrir GHCi")
 
@@ -102,7 +102,7 @@ pero se ajusta a los propios gestores de paquetes.
 
 ###Pasos:
 
-1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo sources.list:
+1. Configurar las fuentes del gestor de paquetes (APT) editando el archivo *sources.list*:
 ```bash
 # vi /etc/apt/sources.list
 ```
