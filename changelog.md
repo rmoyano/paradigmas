@@ -1,5 +1,12 @@
 # Versiones del apunte
 
+- **Versión**: 0.2.7
+- **Fecha**: 28-05-17
+- **Cambios**:
+    * Revisión y corrección de capítulos 1 y 2.
+
+******
+
 - **Versión**: 0.2.6
 - **Fecha**: 14-04-17
 - **Cambios**:
