@@ -104,7 +104,7 @@ La ayuda es un ejemplo rápido de ello, se lo invoca utilizando *:?* y muestra u
       ...
       ...
 ```
-Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecutamos:
+Por ejemplo si ejecutamos *:show*:
 ```Shell
    Prelude> :show
    options currently set: none.
@@ -117,6 +117,7 @@ Por ejemplo para volver a ejecutar el último comando que hayamos empleado ejecu
    -fimplicit-import-qualified
    warning settings:
 
+   Para volver a ejecutar el último comando empleamos *:*
    Prelude> :
    options currently set: none.
    base language is: Haskell2010
@@ -146,21 +147,20 @@ Para cargar el código en GHCi debemos indicarle la ruta a dónde se encuentra e
 El mensaje nos indica que el código fué compilado exitosamente y el módulo cargado por lo que lo probamos llamando a la función doble con el valor 4 como argumento:
 ```Shell
    *Main> doble 4
-       16
+       8
 
 ```
 En el caso de haber guardado el código en otro directorio diferente, ingresamos el path absoluto hasta donde se encuentre el archivo:
-``` 
-Shell
+```Shell
    Prelude> :load c:\directorio\subdirectorio\subdirectorio\ejemplo.hs
    [1 of 1] Compiling Main             ( ejemplo.hs, interpreted )
    Ok, modules loaded: Main.
    *Main>
 ```
-También podemos comentar el objetvio que cumple la función para futuros desarrolladores.
+También podemos comentar el objetivo que cumple la función empleando dos guiones consecutivos:
 ```Haskell
    -- Función que calcula el doble del número ingresado como argumento.
-   doble x = x * x 
+   doble x = x * 2 
 ```
 
 Guardamos los cambios y en vez escribir el comando *load*, podemos utilizar otro comando llamado *reload* que sirve para volver a cargar el último módulo utilizado:
