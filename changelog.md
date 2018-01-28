@@ -1,5 +1,14 @@
 # Versiones del apunte
 
+- **Versión**: 0.3.0
+- **Fecha**: 15-12-17
+- **Cambios**:
+    * Se agregó el tercer capítulo. (capitulo3.md) 
+    * Revisión y corrección de capítulos 1 y 2.
+    * Se renombró introd.md a README.md para que concuerde con Github.
+
+******
+
 - **Versión**: 0.2.7
 - **Fecha**: 28-05-17
 - **Cambios**:
@@ -17,7 +26,8 @@
 
 - **Versión**: 0.2.0
 - **Fecha**: 10-07-16
-- **Cambios**: Se agregó el segundo capítulo. (capitulo2.md) 
+- **Cambios**: 
+    * Se agregó el segundo capítulo. (capitulo2.md) 
 
 ******
 
