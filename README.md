@@ -1,5 +1,5 @@
 Apunte de practica de la materia *Paradigmas de Programación*.
-##
+=======
 ### Proyecto de documentación de la materia dictada en segundo año de la carrera de Ingenería en Sistemas de Información de la Universidad Nacional de La Rioja.
 
 ###Objetivo
