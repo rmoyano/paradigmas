@@ -1,12 +1,12 @@
 #Instalación de Haskell
 
 Para poder aprender los fundamentos de programación en Haskell hace falta practicar, por lo que su estudio 
-como las pruebas, es mejor realizarlas en sus máquinas que ya se encuentran personalizadas a gusto de cada uno.
+así como las pruebas, es mejor realizarlas en sus máquinas que ya se encuentran personalizadas a gusto de cada uno.
 Por lo tanto, se hace necesario descargar e instalar el conjunto de librerías, ambiente interactivo y compilador correspondiente.
 Dentro de los proyectos de software libre disponibles en Internet, la cátedra ha elegido una de las distribuciones
 más activas de la comunidad de programación llamada Glasgow Haskell Compiler (GHC). 
 Mas precisamente, al hacer referencia a *GHC*, debemos relacionarlo con un compilador optimizado para 
-generar código nativo y *GHCi*, hace referencia al ambiente y depurador interactivo.
+generar código nativo y por otra parte *GHCi*, hace referencia al ambiente y depurador interactivo.
 
 ##Microsoft Windows##
 
@@ -92,6 +92,16 @@ generar código nativo y *GHCi*, hace referencia al ambiente y depurador interac
 
    ![WinGHCi.](/images/19_winghci.png "Abrir GHCi")
 
+###Máquinas antiguas:
+En netbooks Banghó con arquitectura de 32 bits, del programa Conectar Igualdad se presentaron varios casos de fallas al querer ejecutar GHCi o GHC. La alternativa fué instalar MinGHC, el cual es un proyecto que ha dejado de soportarse de manera oficial por Haskell pero a los fines prácticos nos sirve para aprender.
+
+1. Ir al sitio del proyecto [MinGHC](https://github.com/fpco/minghc "MinGHC"). 
+
+2. Buscar y hacer scroll down hasta la sección *Using the Legacy Installer*:
+
+3. Seleccionar el instalador de 32 o 64 bits. 
+
+   ![Instaladores.](/images/20_download_minghc.png "MinGHC")
 
 ##GNU/Linux
 Para esta plataforma, la instalación de Haskell se realizará en la distribución Debian

@@ -1,5 +1,14 @@
 # Versiones del apunte
 
+- **Versión**: 0.3.1
+- **Fecha**: 24-04-18
+- **Cambios**:
+    * Se agregó MinGHC al primer capítulo. (capitulo1.md) 
+    * Revisión y corrección de capítulos 1 y 3.
+    * Se reemplazó a Maldonado por Campazzo.
+
+******
+
 - **Versión**: 0.3.0
 - **Fecha**: 15-12-17
 - **Cambios**:

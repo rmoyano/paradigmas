@@ -51,8 +51,8 @@ Compilamos y llamamos a la función:
    125
 ```
 A medida que se continúe con el desarrollo y aumente la cantidad de líneas en el código,
-utilizar una variable llamada numero no va a ser representativo de su objetivo, por lo que es
-renombrada a base.
+utilizar una variable llamada *numero* no va a ser representativo de su objetivo, por lo que es
+renombrada a *base*.
 
 *variables.hs*
 ```Shell
@@ -189,15 +189,15 @@ Bool = {False, True}
 
 Las variables son de un cierto tipo, el cual define su representación lógica y tamaño en
 memoria.
-Haskell posee tipo de dato estático, significa que el tipo de dato se define previamente antes de
+	Haskell posee tipo de dato estático, significa que el tipo de dato se define previamente antes de
 realizar la compilación. Al definir una variable el compilador sabe qué pieza de código es un
 número, un caracter, etc.; esto quizás les parezca familiar de C y C++ pues también poseen
 ésta propiedad.
-En otros lenguajes de programación como Python o Ruby el tipo de dato es dinámico. Esto
+	En otros lenguajes de programación como Python o Ruby el tipo de dato es dinámico. Esto
 significa que el tipo de una variable puede cambiar y ser resuelto al momento exacto en el
 código es parseado por el intérprete. Se puede definir una variable a como flotante y unas
 líneas posteriores ser empleada para almacenar un entero.
-Haskell es fuertemente tipado como C, C++, Python o Ruby. Si estamos realizando una
+	Haskell es fuertemente tipado como C, C++, Python o Ruby. Si estamos realizando una
 operación con números enteros, no puedo utilizar una cadena de texto:
 
 ```Shell
@@ -213,7 +213,7 @@ operación con números enteros, no puedo utilizar una cadena de texto:
 ```
 Haskell fuerza a que se respete el tipo de dato a utilizar.
 
-En otro ejemplo se intenta hacer una operación entre un booleno y la constante Pi:
+En otro ejemplo se intenta hacer una operación entre un booleno y la constante *Pi*:
 
 ```Shell
    Prelude> let valor = True
@@ -252,3 +252,4 @@ string empleando la función *show* para tal fin:
    Tú edad es: 23
 
 ```
+La función *putStrLn* toma como argumento la concatenación de las variables *texto* y *edad*.
