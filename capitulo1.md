@@ -25,7 +25,7 @@ generar código nativo y por otra parte *GHCi*, hace referencia al ambiente y de
 
    ![Windows.](/images/4_haskell_os.png "Windows")
                   
-5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Elegir el ejecutable dependiendo de la arquitectura de su computadora (32 o 64 bits) y si es el instalador full o core. Se recomienda la versión core, ya que la versión full incluye librerías que no vamos a llegar a cubrir en el curso:
+5. Una vez que ingresamos a la página de *Windows*, hacemos scroll-down en la página para seleccionar la descarga. Elegir el ejecutable dependiendo de la arquitectura de su computadora (32 o 64 bits):
 
    ![Arquitectura.](/images/5_haskell_arch.png "Arquitectura")
    
